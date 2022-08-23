@@ -16,12 +16,19 @@
   padding: 0;
   box-sizing: border-box;
  }
+
  body {
   font-family: "Poppins", "sans-serif";
  }
  a {
   text-decoration: none;
+  color: #F28482;
  }
+
+ a:hover {
+  color: #F6BD60;
+ }
+
  li {
   list-style: none;
  }

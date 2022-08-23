@@ -6,7 +6,7 @@ text-align: center;
 text-transform: uppercase;
 transition: 0.5s;
 background-size: 200% auto;
-color: white;
+color: #ffffff;
 box-shadow: 0 0 20px #eee;
 border-radius: 10px;
 display: block;
@@ -15,6 +15,10 @@ width: 160px;
 
 .btn-grad:hover {
 background-position: right center; /* change the direction of the change here */
-color: #fff;
+color: #ffffff;
 text-decoration: none;
+}
+
+.btn-grad:visited {
+  color: #ffffff;
 }
