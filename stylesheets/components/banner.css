@@ -1,0 +1,26 @@
+#arch {
+  position: absolute;
+  width: 327px;
+  height: 594px;
+  left: 899px;
+  top: 0px;
+  background: linear-gradient(0deg, #F7EDE2 50.15%, rgba(247, 237, 226, 0) 119.23%);
+  border-radius: 0px 0px 150px 162px;
+}
+
+#my-photo {
+  position: absolute;
+  left: -56px;
+  top: 157px;
+  width: 436px;
+  border-bottom-left-radius: 224px;
+  border-bottom-right-radius: 224px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media only screen and (max-width: 768px) {
+
+  #arch {
+    display: none;
+  }
+}

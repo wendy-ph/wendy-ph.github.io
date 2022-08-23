@@ -1,0 +1,41 @@
+ /* Style inputs with type="text", select elements and textareas */
+
+ input, textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+ }
+ .form-input {
+  padding: 12px;
+}
+
+.form-textarea {
+  padding: 24px; /* Some padding */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  width: 100%;
+  background-color: #F28482;
+  color: #F7EDE2;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #F6BD60;
+}
+
+@media only screen and (max-width: 768px) {
+  input[type=text], select, textarea {
+    font-size: 14px;
+    padding: 5px;
+  }
+}

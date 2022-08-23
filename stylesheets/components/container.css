@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-banner {
+  display: flex;
+  margin-bottom: 192px;
+}
+
+.container-beige {
+  background-color: #F7EDE2;
+}
+
+.container-white {
+  background-color: #ffffff;
+}
+
+.container-green {
+  background-color: #84A59D;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #F7EDE2;
+  padding: 20px;
+  margin: auto;
+  width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-banner {
+    margin-bottom: 8rem;
+  }
+
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .container-form {
+    border-radius: 5px;
+    background-color: #F7EDE2;
+    margin-left: inherit;
+    width: inherit;
+  }
+}
