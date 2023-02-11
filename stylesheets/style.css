@@ -156,6 +156,9 @@ input, button, textarea, select {
 
 .project-img {
   width: 304px;
+  border: 0.4px solid lightgray;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 }
 
 .icon-size {
